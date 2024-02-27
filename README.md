@@ -3,7 +3,7 @@ Atividade de SQL no geral consegui realizar mas tive algumas dificuldades princi
 
 Segue as respostas
 
-  1- Consulta com o numero de registros na tabela
+     1- Consulta com o numero de registros na tabela
 
 SELECT COUNT(*)
 AS total_registros USUARIOS;
@@ -13,32 +13,32 @@ SELECT COUNT(*)
 AS total_registros PRODUTOS ;
 15
 
-  2- Consulta para encontrar o usuario com o id 10
+     2- Consulta para encontrar o usuario com o id 10
 
 SELECT *
 FROM USUARIOS WHERE id = 10;
 10 LUCCA RYAN JESUS
 
-  3- Consulta para encontrar o nome do Bruce Wayne
+     3- Consulta para encontrar o nome do Bruce Wayne
 
 FROM Usuario WHERE nome = 'Bruce Wayne';
 
 13 brucewayne@gothan.com
 
 
-  4- Consulta para encontrar o email do usuario 'ghost_silva@fantasma.com'
+     4- Consulta para encontrar o email do usuario 'ghost_silva@fantasma.com'
 
 SELECT FROM USUARIOS WHERE email = 'ghost_silva@fantasma.com';
 
 4 Ghost Silva ghost_silva@fantasma.com
 
-  5- Realizar uma consulta para deletar o usuario 'peterparker@marvel.com'
+     5- Realizar uma consulta para deletar o usuario 'peterparker@marvel.com'
 
 DELETE FROM USUARIOS WHERE email = 'peterparker@marvel.com';
 
   Produtos
 
-  1- Produtos com descrição vazia
+     1- Produtos com descrição vazia
 
 SELECT * FROM Produtos WHERE DESCRICAO = '';
 
@@ -46,7 +46,7 @@ SELECT * FROM Produtos WHERE DESCRICAO = '';
 
 6 copo grande térmico  utilitários        R$35,9
 
-  2- Produtos na categoria games
+     2- Produtos na categoria games
 
 SELECT * FROM Produtos WHERE categoria = 'games';
 
@@ -62,7 +62,7 @@ SELECT * FROM Produtos WHERE categoria = 'games';
 
 12  JOGO SPIDER-MAN     GAMES   R$200      JOGO SPIDER-MAN PARA PC
 
-3- Produtos com o preço 0
+      3- Produtos com o preço 0
 
 SELECT * FROM Produtos WHERE preco = 0;
 
@@ -70,7 +70,7 @@ SELECT * FROM Produtos WHERE preco = 0;
 
 4 caneca   utilitários R$0,00   caneca para café
 
-4- Produtos com o preço maior que 100
+     4- Produtos com o preço maior que 100
 
 SELECT * FROM Produtos WHERE preco > 100.00;
 
@@ -88,7 +88,7 @@ SELECT * FROM Produtos WHERE preco > 100.00;
 
 15  cama solteiro   casa    R$1800,00   cama box solteiro.
 
-  5- Produtos com os preços entre 1000 e 2000.
+     5- Produtos com os preços entre 1000 e 2000.
 
 SELECT * FROM Produtos WHERE preco BETWEEN 1000.00 AND 2000.00;
 
@@ -96,7 +96,7 @@ SELECT * FROM Produtos WHERE preco BETWEEN 1000.00 AND 2000.00;
 
 15  cama solteiro   casa   R$1800,00    cama box solteiro.
 
-  6- Produtos que tenha a palavra jogo
+    6- Produtos que tenha a palavra jogo
 
 SELECT * FROM Produtos WHERE nome LIKE '%jogo%';
 10 jogo batman games      R$150,00  jogo do batman para PC.
