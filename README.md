@@ -2,6 +2,7 @@
 Atividade de SQL no geral consegui realizar mas tive algumas dificuldades principalmente na primeira questão que tive que primeiro tive que achar o total de usuarios para depois achar o de produtos.
 
 Segue as respostas
+
   1- Consulta com o numero de registros na tabela
 
 SELECT COUNT(*)
